@@ -7,6 +7,7 @@ import TabsComp from "../views/tabs-comp.vue";
 import StepsComp from "../views/steps-comp.vue";
 import DividinglineComp from "../views/dividingline-comp.vue";
 import TimelineComp from "../views/timeline-comp.vue";
+import CheckboxTagGroupComp from "../views/checkboxtaggroup-comp.vue";
 
 Vue.use(Router);
 
@@ -46,7 +47,12 @@ export default new Router({
           path: "/components/timeline",
           name: "timeline",
           component: TimelineComp
-        }
+        },
+        {
+          path: "/components/checkboxtaggroup",
+          name: "checkboxtaggroup",
+          component: CheckboxTagGroupComp
+        },
       ]
     }
   ]

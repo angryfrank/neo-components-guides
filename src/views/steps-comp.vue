@@ -3,21 +3,21 @@
 		<fieldset>
 			<legend>控件展示</legend>
 			<neo-steps :active="active">
-				<neo-step title="步骤 1"></neo-step>
-				<neo-step title="步骤 2"></neo-step>
-				<neo-step title="步骤 3"></neo-step>
+				<neo-step title="步骤 1" description="2018-09-22 12:33:00"></neo-step>
+				<neo-step title="步骤 2" description="2018-09-22 12:33:00"></neo-step>
+				<neo-step title="步骤 3" description="2018-09-22 12:33:00"></neo-step>
 				<neo-step title="步骤 4"></neo-step>
 			</neo-steps>
 		</fieldset>
 		<fieldset>
 			<legend>控件代码</legend>
 			<textarea readonly>
-					<neo-steps :active="active">
-						<neo-step title="步骤 1"></neo-step>
-						<neo-step title="步骤 2"></neo-step>
-						<neo-step title="步骤 3"></neo-step>
-						<neo-step title="步骤 4"></neo-step>
-					</neo-steps>
+				<neo-steps :active="active">
+					<neo-step title="步骤 1" description="2018-09-22 12:33:00"></neo-step>
+					<neo-step title="步骤 2" description="2018-09-22 12:33:00"></neo-step>
+					<neo-step title="步骤 3" description="2018-09-22 12:33:00"></neo-step>
+					<neo-step title="步骤 4"></neo-step>
+				</neo-steps>
 				</textarea>
 		</fieldset>
 		<fieldset>
@@ -38,7 +38,7 @@
 		name: 'StepsComp',
 		data() {
 			return {
-				active:2,
+				active: 2,
 			}
 		},
 		methods: {},

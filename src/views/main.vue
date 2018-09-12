@@ -4,7 +4,7 @@
             <h1>Neo公共样式控件</h1>
         </el-header>
         <el-container>
-            <el-aside width="200px">
+            <el-aside width="250px">
                 <left-menu></left-menu>
             </el-aside>
             <el-main>

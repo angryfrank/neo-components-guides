@@ -25,6 +25,9 @@
                     children: [{
                         menuKey: 'button',
                         menuValue: '按钮（button）'
+                    },{
+                        menuKey: 'checkboxtaggroup',
+                        menuValue: '标签多选框（checkboxtaggroup）'
                     }]
                 }, {
                     menuValue: '导航',
