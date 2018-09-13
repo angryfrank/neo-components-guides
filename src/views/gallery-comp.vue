@@ -45,6 +45,5 @@ imgUrls: [
 				]
 			}
 		},
-		methods: {},
 	}
 </script>
