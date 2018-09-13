@@ -9,20 +9,34 @@
 		<fieldset>
 			<legend>控件代码</legend>
 			<textarea readonly>
-					<neo-breadcrumb>
-						<neo-breadcrumb-item to="{ path: '/' }">首页</neo-breadcrumb-item>
-					</neo-breadcrumb>
-					<neo-breadcrumb>
-						<neo-breadcrumb-item to="{ path: '/aa' }">活动管理</neo-breadcrumb-item>
-					</neo-breadcrumb>
-					<neo-breadcrumb>
-						<neo-breadcrumb-item>活动详情</neo-breadcrumb-item>
-					</neo-breadcrumb>
+<neo-breadcrumb>
+	<neo-breadcrumb-item to="{ path: '/' }">首页</neo-breadcrumb-item>
+</neo-breadcrumb>
+<neo-breadcrumb>
+	<neo-breadcrumb-item to="{ path: '/aa' }">活动管理</neo-breadcrumb-item>
+</neo-breadcrumb>
+<neo-breadcrumb>
+	<neo-breadcrumb-item>活动详情</neo-breadcrumb-item>
+</neo-breadcrumb>
 			</textarea>
 		</fieldset>
 		<fieldset>
 			<legend>属性说明</legend>
-			<p>暂无</p>
+			<textarea readonly>
+breadcrumbList: [{
+	to: {
+		path: '/'
+	},
+	label: '首页'
+}, {
+	to: {
+		path: '/aa'
+	},
+	label: '活动管理'
+}, {
+	label: '活动详情'
+}]
+			</textarea>
 		</fieldset>
 	</div>
 </template>

@@ -7,11 +7,14 @@ import ElementUI from 'element-ui'
 import 'element-ui/packages/theme-chalk/lib/index.css'
 import NeoCpmonents from 'neo-components'
 import 'neo-components/lib/dark-forest/index.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
 Vue.use(NeoCpmonents)
+Vue.use(VueAwesomeSwiper)
 
 
 /* eslint-disable no-new */

@@ -49,6 +49,9 @@
                     }, {
                         menuKey: 'timeline',
                         menuValue: '时间线（timeline）'
+                    }, {
+                        menuKey: 'gallery',
+                        menuValue: '画廊（gallery）'
                     }]
                 }]
             }
