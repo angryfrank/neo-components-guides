@@ -9,6 +9,9 @@ import DividinglineComp from "../views/dividingline-comp.vue";
 import TimelineComp from "../views/timeline-comp.vue";
 import CheckboxTagGroupComp from "../views/checkboxtaggroup-comp.vue";
 import GalleryComp from "../views/gallery-comp.vue";
+import LinkageSelectboxComp from "../views/linkageselectbox-comp.vue";
+import InputComp from "../views/input-comp.vue";
+import InputNumberComp from "../views/inputnumber-comp.vue";
 
 Vue.use(Router);
 
@@ -58,6 +61,21 @@ export default new Router({
           path: "/components/gallery",
           name: "gallery",
           component: GalleryComp
+        },
+        {
+          path: "/components/linkageselectbox",
+          name: "linkageselectbox",
+          component: LinkageSelectboxComp
+        },
+        {
+          path: "/components/input",
+          name: "input",
+          component: InputComp
+        },
+        {
+          path: "/components/inputnumber",
+          name: "inputnumber",
+          component: InputNumberComp
         },
       ]
     }

@@ -51,6 +51,7 @@
             text-align: start;
             border: none;
             color: #252525;
+            outline: none;
         }
     }
 </style>

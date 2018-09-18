@@ -25,9 +25,18 @@
                     children: [{
                         menuKey: 'button',
                         menuValue: '按钮（button）'
-                    },{
+                    }, {
                         menuKey: 'checkboxtaggroup',
                         menuValue: '标签多选框（checkboxtaggroup）'
+                    }]
+                }, {
+                    menuValue: '表单',
+                    children: [{
+                        menuKey: 'input',
+                        menuValue: '输入框（input）'
+                    }, {
+                        menuKey: 'inputnumber',
+                        menuValue: '计数器（inputnumber）'
                     }]
                 }, {
                     menuValue: '导航',
@@ -40,6 +49,12 @@
                     }, {
                         menuKey: 'steps',
                         menuValue: '步骤条（steps）'
+                    }]
+                }, {
+                    menuValue: '业务定制',
+                    children: [{
+                        menuKey: 'linkageselectbox',
+                        menuValue: '联动勾选框（linkageselectbox）'
                     }]
                 }, {
                     menuValue: '其他',
